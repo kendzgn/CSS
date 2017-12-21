@@ -1,0 +1,25 @@
+/* Content
+----------------------------------------------- */
+body {
+  font: $(body.font);
+  color: $(body.text.color);
+  background: $(body.background);
+}
+
+html body .content-outer {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.body-fauxcolumn-outer .cap-top {
+  position: absolute;
+  z-index: 1;
+
+  height: 276px;
+  width: 100%;
+
+  background: transparent $(body.background.gradient.cap) repeat-x scroll top left;
+  _background-image: none;
+}
