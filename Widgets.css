@@ -1,0 +1,92 @@
+/* Widgets
+----------------------------------------------- */
+.main-inner .section {
+  padding: 0;
+}
+
+.main-inner .column-left-outer,
+.main-inner .column-right-outer {
+  margin-top: $(widget.outer.margin.top);
+}
+
+#layout .main-inner .column-left-outer,
+#layout .main-inner .column-right-outer {
+  margin-top: 0;
+}
+
+
+
+#layout .main-inner .column-left-inner,
+#layout .main-inner .column-right-inner {
+  margin-top: 0;
+}
+
+
+.sidebar .widget h2 {
+  text-shadow: 0 0 $(title.shadow.spread) #000000;
+}
+
+
+
+.main-inner .widget .widget-content {
+  margin: 0 -$(separator.outdent);
+  padding: 7px $(separator.outdent) 0;
+}
+
+.main-inner .widget ul, .main-inner .widget #ArchiveList ul.flat {
+  margin: -$(widget.padding.top) -15px 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-inner .widget #ArchiveList {
+  margin: -$(widget.padding.top) 0 0;
+}
+
+.main-inner .widget ul li, .main-inner .widget #ArchiveList ul.flat li {
+  padding: .5em 15px;
+  text-indent: 0;
+
+  border-top: $(list.separator.border.size) solid $(widget.border.color);
+  border-bottom: 1px solid $(widget.border.bevel.color);
+}
+
+.main-inner .widget #ArchiveList ul li {
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.main-inner .widget ul li:first-child, .main-inner .widget #ArchiveList ul.flat li:first-child {
+  border-top: none;
+}
+
+.main-inner .widget ul li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child {
+  border-bottom: none;
+}
+
+.post-body {
+  position: relative;
+}
+
+.main-inner .widget .post-body ul {
+  padding: 0 2.5em;
+  margin: .5em 0;
+
+  list-style: disc;
+}
+
+.main-inner .widget .post-body ul li {
+  padding: 0.25em 0;
+  margin-bottom: .25em;
+
+  color: $(body.text.color);
+
+  border: none;
+}
+
+.footer-inner .widget ul {
+  padding: 0;
+
+  list-style: none;
+}
