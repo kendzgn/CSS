@@ -1,0 +1,30 @@
+/* Header
+----------------------------------------------- */
+.header-outer {
+  margin: $(header.margin.top) 0 $(header.margin.bottom) 0;
+}
+
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+
+.comments .comments-content .loadmore a {
+  border-top: 1px solid $(tabs.border.color);
+  border-bottom: 1px solid $(tabs.border.color);
+}
+
+.comments .continue {
+  border-top: 2px solid $(tabs.border.color);
+}
+
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+  margin: -$(shadow.spread) 0 -1px;
+  padding: $(shadow.spread) 0 0;
+  color: $(footer.text.color);
+  overflow: hidden;
+}
