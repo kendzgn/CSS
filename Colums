@@ -1,0 +1,31 @@
+/* Columns
+----------------------------------------------- */
+.content-inner {
+  padding: 0;
+}
+
+.header-inner .section {
+  margin: 0 16px;
+}
+
+.tabs-inner .section {
+  margin: 0 16px;
+}
+
+.main-inner {
+  padding-top: $(date.space);
+}
+
+.main-inner .column-center-inner,
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+  padding: 0 5px;
+}
+
+*+html body .main-inner .column-center-inner {
+  margin-top: -$(date.space);
+}
+
+#layout .main-inner .column-center-inner {
+  margin-top: 0;
+}
