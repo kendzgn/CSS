@@ -1,0 +1,539 @@
+/***************************
+Content Styles
+****************************/
+/* Date Header */
+.date-header {
+	font-weight: 800;
+	font-size:0.87em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color:#999;
+	text-shadow:1px 1px 0px rgba(255,255,255,0.5);
+	background-color:transparent;
+	padding:0px 20px;
+	border-radius:10px;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.0);
+	max-width:50%;
+	display:inline-block;
+
+	padding-left:0;
+	margin-bottom: 1em;
+}
+.date-header span.out {
+	position:relative;
+	left:-10px;
+}
+.date-header i.fa {
+	position:relative;
+	left:-10px;
+	letter-spacing:0;
+	display: inline-block;
+	margin-right:0px;
+	width:40px;
+	height:40px;
+	border:1px solid #333;
+	line-height:40px;
+	text-align:center;
+	border-radius: 50%;
+	background-color:#FF4B66;
+	color:#fff;
+	border-color:transparent;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.1);
+
+	-webkit-transition:0.1s all ease-in-out;
+	-moz-transition:0.1s all ease-in-out;
+	-o-transition:0.1s all ease-in-out;
+	-ms-transition:0.1s all ease-in-out;
+	transition:0.1s all ease-in-out;
+}
+
+
+
+/* Date Outer */
+.date-outer {
+	margin-bottom:2.5em;
+}
+
+
+/* Normal Post Outer */
+.post-outer:first-child {
+	padding:20px 20px;
+	background-color: #fff;
+	box-shadow:0 2px 4px rgba(0,0,0,0.2);
+}
+
+.post-outer h1.post-title {
+  font-weight:500;
+  font: $(post.title.font);	
+  letter-spacing:-0.015em;
+  margin: 0;
+}
+
+.post-outer h1.post-title a {
+  text-decoration: none;
+  color:#555;
+}
+
+
+.post-body img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* Material Design Summarized Post */
+.summarized {
+  max-width:100%;
+  border:0px solid transparent;
+  margin:0 auto;
+  margin-bottom:2.5em;
+  padding:0 !important;
+  background: #fff;
+  
+  box-shadow:0 2px 2px rgba(0,0,0,0.2);
+  
+  -webkit-transition:0.1s all ease-in-out;
+  -moz-transition:0.1s all ease-in-out;
+  -o-transition:0.1s all ease-in-out;
+  -ms-transition:0.1s all ease-in-out;
+  transition:0.1s all ease-in-out;
+}
+
+
+.summarized:hover {
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.summarized .post-header {
+	display: none !important;
+}
+
+
+.post-material .media-box {
+  position:relative;
+  overflow:hidden;
+  
+  -webkit-transition:0.1s all ease-in-out;
+  -moz-transition:0.1s all ease-in-out;
+  -o-transition:0.1s all ease-in-out;
+  -ms-transition:0.1s all ease-in-out;
+  transition:0.1s all ease-in-out;
+}
+
+.post-material .media-box.image {
+  max-height:300px;
+}
+
+.post-material .media-box.image:hover {
+  -webkit-filter:brightness(1.1);
+}
+
+
+.post-material .media-box .overlay-img {
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  background-color:rgba(0,0,0,0.0);
+  padding:0;
+}
+
+.post-material .media-box.image a.post-url {
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  background-color:rgba(0,0,0,0.0);
+}
+
+.post-material .media-box img {
+  max-width: 100%;
+  min-width: 100%;
+  height:auto;
+  display:block;
+  padding: 0;
+  border: none;
+}
+
+/* Filter Effects */
+.filter-1 {
+	-webkit-filter:hue-rotate(30deg) brightness(1) ;
+}
+.filter-2 {
+	-webkit-filter:hue-rotate(60deg) brightness(1) ;
+}
+.filter-3 {
+	-webkit-filter:hue-rotate(120deg) brightness(1) ;
+}
+.filter-4 {
+	-webkit-filter:hue-rotate(180deg) brightness(1) ;
+}
+.filter-5 {
+	-webkit-filter:hue-rotate(280deg) brightness(1) ;
+}
+
+
+.post-material .content {
+  padding:10px 15px;
+  border-bottom:1px solid #ececec;
+  color:#666;
+}
+
+.content .post-title-box h2 {
+  margin:0;
+  margin-bottom:0.2em;
+  font: $(post.title.font);
+  letter-spacing: 0.05em;
+}
+
+.content .post-title-box h2 a {
+  font-size:0.87em;
+  color: $(post.title.text.color);
+  text-decoration:none;
+}
+
+.content .post-title-box h2 a:hover {
+	color:#444;
+}
+
+.content .post-meta {
+  text-transform:uppercase;
+  font-size:0.8em;
+  margin:0.8em 0;
+}
+
+.content .read-more {
+  text-align:right;
+  margin-top:1em;
+}
+
+.content .read-more a {
+  position:relative;
+  text-transform:uppercase;
+  color:#999;
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration:none;
+  overflow:hidden;
+  
+  -webkit-transition:0.2s all ease-in-out;
+  -moz-transition:0.2s all ease-in-out;
+  -o-transition:0.2s all ease-in-out;
+  -ms-transition:0.2s all ease-in-out;
+  transition:0.2s all ease-in-out;
+}
+
+.content .read-more a:hover {
+  background-color:transparent;
+  color:#fff;
+}
+
+.content .read-more a span {
+  position:relative;
+}
+
+
+.content .read-more a::before {
+  content:"";
+  display:block;
+  position:absolute;
+  background-color: #4CAED8;
+  border-radius:50%/50px;
+  left:0px;
+  right:120px;
+  bottom:20px;
+  top:0;
+  background: #4CAED8;
+  opacity:0.2;
+  
+  -webkit-transform:scale(1.8);
+  -moz-transform:scale(1.8);
+  -o-transform:scale(1.8);
+  -ms-transform:scale(1.8);
+  transform:scale(1.8);
+  
+  
+  -webkit-transition:0.1s all ease-in-out;
+  -moz-transition:0.1s all ease-in-out;
+  -o-transition:0.1s all ease-in-out;
+  -ms-transition:0.1s all ease-in-out;
+  transition:0.1s all ease-in-out;
+}
+
+.content .read-more a:hover:before {
+  left:0; right:0; top:0; bottom:0;
+  border-radius:0;
+  opacity:1;
+  
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+}
+
+/* Post Footer in summarized Post */
+.summarized .post-footer {
+	position: relative;
+	margin:0;
+	padding:15px;
+	color:#999;
+	background-color: whiteSmoke;
+	background-image: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.01) 100%, #FFFFED 100%);
+}
+.summarized .post-footer .post-footer-line {
+	padding:0px 5px;
+	margin-bottom:2px;
+	text-transform:uppercase;
+	font-size:0.85em;
+	letter-spacing:0.05em;
+	font-weight:600;
+}
+.summarized .post-footer a {
+	color: $(link.color);
+	text-decoration:none;
+}
+.summarized .post-footer a:hover {
+	background-color:transparent;
+	color: $(link.hover.color);
+}
+
+/* Post Edit Icon */
+.summarized .post-icons .item-control.blog-admin {
+	position:absolute;
+	z-index:2;
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border-radius:50%;
+	border:0px solid #eee;
+	right:-20px;
+	top:50%;
+	margin-top:-20px;
+	background-color:#FF9B29;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2) ;
+
+	-webkit-transition: 0.1s all ease-in-out;
+	-moz-transition: 0.1s all ease-in-out;
+	-o-transition: 0.1s all ease-in-out;
+	-ms-transition: 0.1s all ease-in-out;
+	transition: 0.1s all ease-in-out;
+}
+
+.summarized .post-icons .item-control.blog-admin:hover {
+	-webkit-transform: scale(1.1);
+	box-shadow:0px 0px 14px rgba(0,0,0,0.2);
+}
+
+.summarized .post-icons .item-control.blog-admin a {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border: none;
+    background-color: transparent !important;
+}
+
+.summarized .post-icons .item-control.blog-admin:after {
+	content:"\f040";
+	font-family:FontAwesome, sans-serif;
+	color:#fff;
+}
+
+.summarized .post-icons .item-control.blog-admin img {
+	display:none;
+}
+
+
+
+/* Headings in post */
+.post-body h2, 
+.post-body h3, 
+.post-body h4, 
+.post-body h5, 
+.post-body h6 {
+    margin:0.5em 0;
+}
+.post-body h2 {
+    font-size:1.8em;
+}
+
+.post-body h3 {
+    font-size:1.4em;
+}
+
+.post-body h4 {
+    font-size:1.2em;
+}
+
+.post-body h5 {
+    font-size:1em;
+}
+
+.post-body h6 {
+    font-size:0.8em;
+}
+
+
+
+/* Blog Pager */
+#blog-pager {
+	padding:0;
+	margin:0;
+	overflow: visible;
+}
+
+
+/* Btn Style */
+/* Btn Style */
+#blog-pager a {
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+	display: inline-block;
+	padding:1em 1.5em;
+	background-color: #4CAED8;
+	color:#fff;
+	font-weight: 800;
+	text-transform:uppercase;
+	font-size: 0.8em;
+	text-decoration: none;
+
+	border-radius: 10px/25px;
+	box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.4);
+
+	-webkit-transition: 0.1s all ease-in-out;
+	-moz-transition: 0.1s all ease-in-out;
+	-ms-transition: 0.1s all ease-in-out;
+	transition: 0.1s all ease-in-out;
+}
+
+#blog-pager a:hover {
+	background-color: #0F85B8;
+	box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
+
+#blog-pager a:active {
+	box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.6);
+}
+
+
+/* Sidebar Widget */
+.sidebar.section {
+	margin:0 0;
+}
+.sidebar .widget {
+	font-size:inherit;
+	margin-bottom:1.5em;
+	background-color:#fff;
+	box-shadow:0 2px 4px rgba(0,0,0,.1);
+	border:none;
+}
+
+.sidebar .widget:last-of-type {
+	margin-bottom:0;
+}
+
+.sidebar .widget .widget-content {
+	margin:0;
+	padding:0.8em;
+	padding-bottom:1.4em;
+
+	background-image:-webkit-linear-gradient(90deg, rgba(0,0,0,0.1), #fff);
+	background-repeat-y:no-repeat;
+	background-size:30px 30px;
+	background-position: 0px calc(100% + 15px);
+}
+
+.sidebar .widget > h2 {
+	font-size:0.8em;
+	font-weight: 800;
+	text-transform: uppercase;
+	color:#fff;
+	padding:0.8em 0.8em;
+
+	background-color: #4CAED8;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* Main Foooter */
+footer .footer-outer {
+    background: $(footer.background.color);
+    color: $(footer.text.color);
+}
+
+footer .footer-inner {
+	padding: 0;
+}
+
+/* Links in footer */
+footer .footer-inner a {
+	
+}
+
+footer .footer-inner a:hover {
+	color: inherit;
+}
+
+/* Widgets in Footer */
+footer .footer-inner .widget > h2 {
+	font-weight:600;
+	font-size:1.17em;
+	margin-bottom:0.5em;
+}
+
+/* Atrribution */
+footer .footer-inner .Attribution {
+	padding:1em 0;
+	margin:0.8em 0;
+}
+
+/* MT Attribution */
+
+.mt-attr {
+	padding:10px 0;
+	font-size: 14px;
+	text-align:right;
+	background-color:#222;
+	color:#fff;
+}
+
+.mt-attr-text {
+	padding:0 10px;
+	opacity:0.8;
+}
+
+.mt-attr-text:hover {
+	opacity:1;
+}
+
+.mt-attr-text a {
+	color:#fff;
+	text-decoration: none;
+	border-bottom: 2px solid;
+	color:#f1f1f1;
+}
+
+.mt-attr-text a:hover {
+	color: $(link.color);
+}
+
+
+
+/* From others.css */
+body .widget.Label .widget-content ul li a,
+body .widget.Label .widget-content ul li span {
+  background-color: #4CAED8;
+}
+
+body .search-bar-top form .search-query-input:focus {
+  border-bottom-color: #4CAED8;
+}
+
+body .comment-thread .comment .comment-actions a[kind='i'] {
+  background-color: #4CAED8;
+}
