@@ -1,0 +1,49 @@
+/* Tabs
+----------------------------------------------- */
+.tabs-outer {
+  overflow: hidden;
+  position: relative;
+  background: $(tabs.background.color) $(tabs.background.gradient) repeat scroll 0 0;
+}
+
+#layout .tabs-outer {
+  overflow: visible;
+}
+
+.tabs-cap-top, .tabs-cap-bottom {
+  position: absolute;
+  width: 100%;
+
+  border-top: 1px solid $(tabs.border.color);
+
+}
+
+.tabs-cap-bottom {
+  bottom: 0;
+}
+
+.tabs-inner .widget li a {
+  display: inline-block;
+
+  margin: 0;
+  padding: .6em 1.5em;
+
+  font: $(tabs.font);
+  color: $(tabs.text.color);
+
+  border-top: 1px solid $(tabs.border.color);
+  border-bottom: 1px solid $(tabs.border.color);
+  border-$startSide: 1px solid $(tabs.border.color);
+
+  height: 16px;
+  line-height: 16px;
+}
+
+.tabs-inner .widget li:last-child a {
+  border-$endSide: 1px solid $(tabs.border.color);
+}
+
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+  background: $(tabs.selected.background.color) $(tabs.background.gradient) repeat-x scroll 0 -100px;
+  color: $(tabs.selected.text.color);
+}
