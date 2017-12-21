@@ -1,0 +1,86 @@
+/* Posts
+----------------------------------------------- */
+body .main-inner .Blog {
+  padding: 0;
+  margin-bottom: 1em;
+
+  background-color: transparent;
+  border: none;
+}
+
+.main-inner .section:last-child .Blog:last-child {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+
+.date-posts {
+  margin: 0 -$(separator.outdent);
+  padding: 0 $(separator.outdent);
+
+  clear: both;
+}
+
+.post-outer, .inline-ad {
+
+  margin: 0 -$(separator.outdent);
+  padding: 15px $(separator.outdent);
+}
+
+.post-outer {
+  padding-bottom: 10px;
+}
+
+.post-outer:first-child {
+  padding-top: $(post.first.padding.top);
+  border-top: none;
+}
+
+.post-outer:last-child, .inline-ad:last-child {
+  border-bottom: none;
+}
+
+.post-body {
+  position: relative;
+}
+
+.post-body img {
+  padding: 8px;
+  background: $(image.background.color);
+  border: 1px solid $(image.border.color);
+}
+
+
+.post-header {
+  margin: 0 0 1em;
+}
+
+.post-body {
+  line-height: 1.4;
+}
+
+.post-outer h2 {
+  color: $(body.text.color);
+}
+
+.post-footer {
+  margin: 1.5em 0 0;
+}
+
+#blog-pager {
+  padding: 15px;
+  margin-top: $(pager.space.top);
+}
+
+.blog-feeds, .post-feeds {
+  margin: 1em 0;
+  text-align: center;
+  color: $(feed.text.color);
+}
+
+
+
+
+.post-outer .comments {
+  margin-top: 2em;
+}
